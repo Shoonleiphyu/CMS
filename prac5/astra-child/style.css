@@ -1,0 +1,51 @@
+/*
+Theme Name:   Astra Child
+Theme URI:    http://astra.com
+Description:  Astra Child Theme
+Author:       Astra
+Author URI:   http://astra.com/about
+Template:     astra
+Version:      1.0.0
+Text Domain:  astra-child
+*/
+
+/* changing header font family and color */
+h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6 {
+    /* color: var(--ast-global-color-2); */
+    color: orangered;
+    font-family: cursive;
+}
+
+/* changing body background color */
+.entry-content {
+    word-wrap: break-word;
+    background: mediumslateblue;
+}
+
+/* changing button background color and font color */
+.wp-block-button .wp-block-button__link, .wp-block-search .wp-block-search__button, body .wp-block-file .wp-block-file__button {
+    color: yellow;
+    background: turquoise;
+}
+
+/* changing footer and header color */
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+    background-color: orange;
+}
+.ast-header-break-point #masthead .ast-mobile-header-wrap .ast-primary-header-bar, .ast-header-break-point #masthead .ast-mobile-header-wrap .ast-below-header-bar, .ast-header-break-point #masthead .ast-mobile-header-wrap .ast-above-header-bar {
+
+    background: coral;
+}
+
+
+/*changing container or coulumn color and font color*/
+.ast-page-builder-template .entry-content[ast-blocks-layout] > .inherit-container-width > *, .ast-page-builder-template .entry-content[ast-blocks-layout] > * > *, .entry-content[ast-blocks-layout] > .wp-block-cover .wp-block-cover__inner-container {
+    color: cornflowerblue;
+    background: antiquewhite;
+}
+
+
+/*changing link color*/
+a {
+    color: red;
+}
